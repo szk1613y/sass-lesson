@@ -1,0 +1,11 @@
+@mixin box($color: null, $height: null, $width: null){
+  @if $color != null {
+    background-color: $color;
+  }
+  @if $height != null {
+    height: $height;
+  }
+  @if $width != null {
+    width: $width;
+  }
+}
